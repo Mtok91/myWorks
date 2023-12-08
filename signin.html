@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Kayıt ol">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Kayıt Ol</title>
+</head>
+
+<body>
+    <section id="signin" class="mt-5 mb-3 pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/logo-60x50.webp" alt="logo" height="100px" width="100px">
+                            <hr>
+                            <h3 style="font-size: 28px;">Yeni hesap</h3>
+                            <p class="pt-4">
+                                <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample" style="font-size: 24px;">
+                                    Kullanıcı adınızı ve şifrenizi girin
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample">
+                                <form method="post" class="form-row" enctype="multipart/form-data">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="e-posta">E-posta adresi (küçük harflerle) </label>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <input type="email" name="eposta" id="id_e-posta"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="sifre">Şifre </label>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <input type="password" name="sifre" id="id_sifre"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <hr>
+                            <p class="pt-4">
+                                <a data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample2" style="font-size: 24px;">
+                                    Daha fazla bilgi
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample2">
+                                <form method="post" class="form-row" enctype="multipart/form-data">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="e-posta">E-posta adresi</label>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <input type="email" name="e-posta" id="id_e-posta"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="e-posta-tekrar">E-posta (tekrar) </label>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-group">
+                                                    <input type="email" name="e-posta-tekrar" id="id_e-posta-tekrar"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="adi">Adı </label>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="adi" id="id_adi" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="soyad">Soyadı</label>
+                                            </div>
+                                            <div class="col-md-1">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="text" name="soyad" id="id_soyad" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="soyad">Şehir</label>
+                                            </div>
+                                            <div class="col-md-1" style="visibility: hidden;">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <input type="text" name="sehir" id="id_sehir" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <label for="soyad">Ülke</label>
+                                            </div>
+                                            <div class="col-md-1" style="visibility: hidden;">
+                                                <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <select id="inputState" class="form-control">
+                                                        <option selected>Türkiye</option>
+                                                        <option>ABD</option>
+                                                        <option>İngiltere</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <hr>
+                            <form method="post" class="form-row" enctype="multipart/form-data">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="dosya">Gerekli Belgeler</label>
+                                        </div>
+                                        <div class="col-md-1">
+                                            <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="form-group">
+                                                <input type="file" name="dosya">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-3 pb-3">
+                                        <div class="col-12">
+                                            <span>Bu formda <i class="fa-solid fa-circle-exclamation text-danger"></i>
+                                                işaretli alanlar
+                                                gereklidir</span>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-3">
+                                        <div class="col-md-4 ">
+                                            <button class="btn btn-dark">Yeni Hesabımı Oluştur</button>
+                                            <button class="btn btn-secondary">İptal</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

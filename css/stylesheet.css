@@ -1,0 +1,392 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+    overflow-x: hidden
+}
+
+
+/* Top Navbar Css Start */
+.arama input::placeholder {
+    font-size: 12px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border-color: rgb(88, 86, 86);
+}
+
+.socialMedia li {
+    background-color: rgb(88, 86, 86);
+    border: none;
+
+}
+
+
+.spanLogo {
+    font-size: 15px;
+}
+
+@media (max-width:991px) {
+    .language {
+        margin-left: 0px !important;
+    }
+
+    .register {
+        margin-left: 0px !important;
+    }
+
+    .left {
+        display: inline-block;
+    }
+
+}
+
+@media (max-width:1226px) {
+    .register {
+        display: block;
+    }
+
+}
+
+@media (max-width:1080px) {
+    .logos {
+        display: block;
+    }
+
+}
+
+@media (max-width:1170px) {
+    .socialMedia {
+        max-width: fit-content;
+    }
+}
+
+@media (max-width:768px) {
+    .responsiveSocial {
+        text-align: left !important;
+    }
+
+    #mainBanner,
+    #mainEgitmenler,
+    #popularKategori,
+    #kisisel-gelisim,
+    #blogYazilari,
+    #akademisyenler {
+        text-align: center !important;
+    }
+
+    .lale {
+        display: flex;
+        position: relative;
+        justify-content: center;
+
+    }
+
+    .sertifika-img {
+        width: 67%;
+        margin: auto;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .yorum-colon {
+        flex-direction: column;
+        width: 45%;
+        margin: auto;
+    }
+
+    #ogrenci-yorum img {
+        width: 30%;
+    }
+
+    .delete {
+        display: none;
+    }
+
+    .center h3 {
+        text-align: center;
+        padding-left: 0px !important;
+    }
+
+    .center p {
+        padding-left: 0px !important;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .kucult {
+        height: 176px;
+    }
+
+    #topFooter {
+        text-align: center;
+    }
+
+    #skill {
+        text-align: center;
+    }
+
+    #login .col-8 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    #signin .col-10 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+
+    .internet,
+    .haklar {
+        text-align: center !important;
+    }
+}
+
+
+
+/* @media (max-width: 1226px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    .navbar-header .collapse,
+    .navbar-toggle {
+        display: block !important;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggler-icon {
+        display: inline-block;
+    }
+
+} */
+
+
+
+/* Top Navbar Css End */
+
+/* Top Footer Start */
+
+.bgFooter {
+    background-color: rgb(88, 86, 86);
+
+}
+
+#topFooter a {
+    color: #000;
+    text-decoration: none;
+}
+
+.bi {
+    font-size: 26px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+
+
+/* Top Footer End */
+
+/* Mid Footer Start */
+.hr {
+    background-color: #fff;
+    height: 1px;
+}
+
+#midFooter ul li {
+    background-color: rgb(88, 86, 86);
+    border: none;
+}
+
+#midFooter ul li a {
+    color: #fff;
+}
+
+#midFooter ul li a:hover {
+    color: rgb(255, 215, 0);
+}
+
+.footerBaslik {
+    padding: .75rem 1.25rem;
+}
+
+
+/* Mid Footer End */
+
+/* Bottom Footer Start */
+
+.linkGap a {
+    color: #fff;
+    margin-right: 30px;
+    line-height: 40px;
+}
+
+.linkGap a:hover {
+    color: rgb(255, 215, 0);
+}
+
+
+/* Bottom Footer End */
+
+/* Main Banner Start */
+.fonth1 {
+    font-size: 55px;
+}
+
+.fontp {
+    font-size: 24px;
+}
+
+.bannerBtn {
+    padding: 16px 28px;
+}
+
+#mainEgitmenler a img {
+    border-radius: 50%;
+    border: none;
+}
+
+.col-md-6 .card {
+    border: none;
+}
+
+.egitmenList li {
+    border: none !important;
+}
+
+.egitmenList li a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.sari {
+    color: gold;
+    filter: brightness(90%);
+}
+
+/* Main Banner End */
+
+/* Popüler Kategori Start */
+.click {
+    cursor: pointer;
+}
+
+/* Popüler Kategori End */
+
+/* Kişisel Gelişim Kursları Start */
+
+.footerCardimg img {
+    border-radius: 50%;
+}
+
+.egitimCard a {
+    text-decoration: none;
+    color: #000;
+}
+
+.img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+
+/* Kişisel Geisim Kursları End */
+
+/* Blog Yazıları Start */
+
+.blog-yazi a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* Blog Yazıları End */
+
+/* ----------------------------------------------------------------------- */
+
+/* Akademisyenler Start */
+.lightBlue {
+    background-color: rgb(203, 216, 229);
+}
+
+#breadCrumb a,
+#akademisyenler a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Akademisyenler End */
+
+/* Sertifikalar Start */
+.mark {
+    background-color: #ffff00;
+    padding: 0px;
+}
+
+#ogrenci-yorum img {
+    border-radius: 50%;
+}
+
+.hafifMavi {
+    background-color: rgb(250, 245, 245);
+}
+
+#sorular a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/* Sertifikalar End */
+
+/* Enstitü Start */
+
+#hakkimizda img {
+    clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0 0);
+}
+
+.gap div {
+    margin-top: 10px;
+}
+
+#signin a {
+
+    color: #6e6666;
+}
+
+/* Enstitü End */
+
+#skill img {
+    border-radius: 50%;
+}
+
+#skill a {
+    color: #000;
+}
